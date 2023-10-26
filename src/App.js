@@ -1,11 +1,9 @@
-import {useEffect} from 'react';
-import {useDispatch} from 'react-redux';
-
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 import { FilterPanel } from 'components/FilterPanel';
 import { JobList } from 'components/JobList';
 import { TheHeader } from 'components/TheHeader';
-
-import {addPositions} from './store/positions/position-actions';
+import { addPositions } from './store/positions/position-actions';
 
 import data from './mock/data.json';
 
