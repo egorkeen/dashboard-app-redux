@@ -25,7 +25,7 @@
 
 ## Ссылки
 
-Ссылка на исходные файлы - https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/hub
+ Frontend Mentor - https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/hub
 
 Git-репозиторий - [https://github.com/egorkeen/todo-list.git/](https://github.com/egorkeen/dashboard-app-redux)
 
