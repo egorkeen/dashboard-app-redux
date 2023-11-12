@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { FilterPanel } from 'components/FilterPanel';
 import { JobList } from 'components/JobList';
 import { TheHeader } from 'components/TheHeader';
-import { addPositions } from './store/positions/position-actions';
+import { addPosition } from './store/position-slice';
 
 import data from './mock/data.json';
 
@@ -11,7 +11,7 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(addPositions(data));
+    dispatch(addPosition(data));
   });
 
   return (
